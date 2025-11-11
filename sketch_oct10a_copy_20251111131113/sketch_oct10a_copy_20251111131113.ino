@@ -35,7 +35,7 @@ void setup () {
 void loop () {
   DateTime now = rtc.now();
   int min = now.minute();
-  int hr = now.hour();   
+  int hr = now.hour()-1;   
   int sec = now.second();
 
   int v = sec * 6;
